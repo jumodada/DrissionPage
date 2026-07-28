@@ -38,6 +38,8 @@ macOS/Linux 也可以使用 shell 入口；macOS 会自动发现默认 Chrome：
 
 `known` 用例预期可能显示 `[FAIL]`，默认只生成报告，不会让命令失败：
 
+四项低风险修复的根因、调用链和兼容性说明见 [`low_risk_bug_fixes_explanation.md`](low_risk_bug_fixes_explanation.md)。
+
 ```bash
 python tests/run.py --source current --suite known --skip-browser --no-browser-only
 
